@@ -62,21 +62,3 @@ button {
 .footer {
     color: white;
 }
-
-/* Media queries for smaller screen sizes */
-
-@media only screen and (max-width: 600px) {
-    .container {
-        max-width: 90%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    button {
-        width: 90%;
-        padding-bottom: 15px;
-        margin-bottom: 10px;
-    }
-}
