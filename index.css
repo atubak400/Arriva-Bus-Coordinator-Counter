@@ -63,7 +63,7 @@ button {
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
     .container {
         height: 70vh; 
     }
