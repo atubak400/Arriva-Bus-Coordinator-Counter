@@ -62,3 +62,13 @@ button {
 .footer {
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: 60vh;
+    }
+
+    button {
+        width: 70%; 
+    }
+}
