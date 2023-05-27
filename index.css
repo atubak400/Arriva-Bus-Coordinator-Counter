@@ -65,8 +65,13 @@ button {
 /* Media query for mobile devices */
 @media only screen and (max-width: 1000px) {
     .container {
-        height: 70vh; 
+        height: 60vh;
+        width: 80%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     button {
         display: block;
         margin: 10px auto;
