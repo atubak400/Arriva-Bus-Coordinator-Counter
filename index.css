@@ -8,10 +8,11 @@ body {
 
 .container {
     background-color: rgba(255, 255, 255, 0.8);
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    padding-bottom: 20px; 
 }
 
 h1 {
@@ -60,12 +61,16 @@ button {
 
 @media only screen and (max-width: 600px) {
     .container {
-        max-width: 90%;
+        max-width: 90%; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-}
 
-@media only screen and (max-width: 400px) {
-    .container {
-        max-width: 95%;
+    button {
+        width: 90%; 
+        padding-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
