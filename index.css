@@ -92,16 +92,32 @@ button {
         background-image: url("bus1.jpg");
     }
 
-    33% {
-        background-image: url("bus2.jpg");
+    14.28% {
+        background-image: url("gym1.jpg");
     }
 
-    66% {
+    28.56% {
         background-image: url("bus3.jpg");
     }
 
-    100% {
+    42.84% {
+        background-image: url("gym3.jpg");
+    }
+
+    57.12% {
+        background-image: url("bus2.jpg");
+    }
+
+    71.40% {
+        background-image: url("gym2.jpg");
+    }
+
+    85.68% {
         background-image: url("bus4.jpg");
+    }
+
+    100% {
+        background-image: url("bus1.jpg");
     }
 }
 
