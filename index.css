@@ -56,8 +56,12 @@ button {
     background: #000;
 }
 
-#save-el {
+#save-el, #total-el {
     font-weight: bold;
+}
+
+#total-el{
+    color: darkred;
 }
 
 .footer {
