@@ -44,6 +44,28 @@ button {
     border-radius: 5px;
 }
 
+.button-container {
+    display: inline-block;
+    white-space: nowrap;
+    justify-content: space-between;
+    width: 200px;
+    margin: 5px 10px 0 10px;
+}
+
+.plus-minus-1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #730200;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin: 10px 2px 10px 2px;
+    border-radius: 5px;
+}
+
+
 #increment-btn {
     background: #2C2891;
 }
@@ -137,5 +159,9 @@ button {
     button {
         display: block;
         margin: 10px auto;
+    }
+
+    .button-container {
+        display: flex;
     }
 }
