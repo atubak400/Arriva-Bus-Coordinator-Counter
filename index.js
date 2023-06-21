@@ -10,7 +10,7 @@ function increment(x) {
 }
 
 function save() {
-    let countStr = count + " - ";
+    let countStr = " - " + count;
     saveEl.textContent += countStr;
     total += count;
     totalEl.textContent = "Total: " + total;
